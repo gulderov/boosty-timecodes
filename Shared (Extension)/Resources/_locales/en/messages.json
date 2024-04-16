@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Boosty Timecodes",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Transform text timecodes into clickable links",
+        "description": "Description of what the extension does."
+    }
+}

@@ -1,0 +1,960 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		604CA6C22BC5697F00738CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6C12BC5697F00738CAE /* AppDelegate.swift */; };
+		604CA6C42BC5697F00738CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6C32BC5697F00738CAE /* SceneDelegate.swift */; };
+		604CA6C72BC5697F00738CAE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6C62BC5697F00738CAE /* Base */; };
+		604CA6CA2BC5697F00738CAE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6C92BC5697F00738CAE /* Base */; };
+		604CA6D32BC5697F00738CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6D22BC5697F00738CAE /* AppDelegate.swift */; };
+		604CA6DD2BC5697F00738CAE /* Boosty Timecodes Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 604CA6DC2BC5697F00738CAE /* Boosty Timecodes Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		604CA6E72BC5697F00738CAE /* Boosty Timecodes Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 604CA6E62BC5697F00738CAE /* Boosty Timecodes Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		604CA6ED2BC5697F00738CAE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6A92BC5697E00738CAE /* Base */; };
+		604CA6EE2BC5697F00738CAE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6A92BC5697E00738CAE /* Base */; };
+		604CA6F12BC5697F00738CAE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6AB2BC5697E00738CAE /* Style.css */; };
+		604CA6F22BC5697F00738CAE /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6AB2BC5697E00738CAE /* Style.css */; };
+		604CA6F32BC5697F00738CAE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6AC2BC5697E00738CAE /* Script.js */; };
+		604CA6F42BC5697F00738CAE /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6AC2BC5697E00738CAE /* Script.js */; };
+		604CA6F52BC5697F00738CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6AD2BC5697E00738CAE /* ViewController.swift */; };
+		604CA6F62BC5697F00738CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6AD2BC5697E00738CAE /* ViewController.swift */; };
+		604CA6F72BC5697F00738CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6AE2BC5697F00738CAE /* Assets.xcassets */; };
+		604CA6F82BC5697F00738CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6AE2BC5697F00738CAE /* Assets.xcassets */; };
+		604CA6F92BC5697F00738CAE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6B02BC5697F00738CAE /* SafariWebExtensionHandler.swift */; };
+		604CA6FA2BC5697F00738CAE /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604CA6B02BC5697F00738CAE /* SafariWebExtensionHandler.swift */; };
+		604CA6FB2BC5697F00738CAE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B22BC5697F00738CAE /* _locales */; };
+		604CA6FC2BC5697F00738CAE /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B22BC5697F00738CAE /* _locales */; };
+		604CA6FD2BC5697F00738CAE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B32BC5697F00738CAE /* images */; };
+		604CA6FE2BC5697F00738CAE /* images in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B32BC5697F00738CAE /* images */; };
+		604CA6FF2BC5697F00738CAE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B42BC5697F00738CAE /* manifest.json */; };
+		604CA7002BC5697F00738CAE /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B42BC5697F00738CAE /* manifest.json */; };
+		604CA7032BC5697F00738CAE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B62BC5697F00738CAE /* content.js */; };
+		604CA7042BC5697F00738CAE /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 604CA6B62BC5697F00738CAE /* content.js */; };
+		6090BEBC2BC6D22A00F5E6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6090BEBA2BC6D1D600F5E6B6 /* Main.storyboard */; };
+		60BAABEC2BCE6B8B0098EBD4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BAABEB2BCE6B8B0098EBD4 /* Icon.png */; };
+		60BAABED2BCE6B8B0098EBD4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 60BAABEB2BCE6B8B0098EBD4 /* Icon.png */; };
+		60E77EAC2BCE6E00007D5F88 /* Color.svg in Resources */ = {isa = PBXBuildFile; fileRef = 60E77EAB2BCE6E00007D5F88 /* Color.svg */; };
+		60E77EAD2BCE6E00007D5F88 /* Color.svg in Resources */ = {isa = PBXBuildFile; fileRef = 60E77EAB2BCE6E00007D5F88 /* Color.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		604CA6DE2BC5697F00738CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604CA6A22BC5697E00738CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604CA6DB2BC5697F00738CAE;
+			remoteInfo = "Boosty Timecodes Extension (iOS)";
+		};
+		604CA6E82BC5697F00738CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 604CA6A22BC5697E00738CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604CA6E52BC5697F00738CAE;
+			remoteInfo = "Boosty Timecodes Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		604CA7102BC5697F00738CAE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				604CA6DD2BC5697F00738CAE /* Boosty Timecodes Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA7172BC5697F00738CAE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				604CA6E72BC5697F00738CAE /* Boosty Timecodes Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		604CA6A92BC5697E00738CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		604CA6AB2BC5697E00738CAE /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		604CA6AC2BC5697E00738CAE /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		604CA6AD2BC5697E00738CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		604CA6AE2BC5697F00738CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		604CA6B02BC5697F00738CAE /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		604CA6B22BC5697F00738CAE /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		604CA6B32BC5697F00738CAE /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		604CA6B42BC5697F00738CAE /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		604CA6B62BC5697F00738CAE /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		604CA6BE2BC5697F00738CAE /* Boosty Timecodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boosty Timecodes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604CA6C12BC5697F00738CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		604CA6C32BC5697F00738CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		604CA6C62BC5697F00738CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		604CA6C92BC5697F00738CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		604CA6CB2BC5697F00738CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604CA6D02BC5697F00738CAE /* Boosty Timecodes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boosty Timecodes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604CA6D22BC5697F00738CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		604CA6D72BC5697F00738CAE /* Boosty Timecodes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Boosty Timecodes.entitlements"; sourceTree = "<group>"; };
+		604CA6DC2BC5697F00738CAE /* Boosty Timecodes Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Boosty Timecodes Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604CA6E12BC5697F00738CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604CA6E62BC5697F00738CAE /* Boosty Timecodes Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Boosty Timecodes Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604CA6EB2BC5697F00738CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604CA6EC2BC5697F00738CAE /* Boosty Timecodes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Boosty Timecodes.entitlements"; sourceTree = "<group>"; };
+		6090BEB92BC6D1D600F5E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6090BEBB2BC6D1D600F5E6B6 /* mul */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = mul; path = mul.lproj/Main.xcstrings; sourceTree = "<group>"; };
+		60BAABEB2BCE6B8B0098EBD4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		60E77EAB2BCE6E00007D5F88 /* Color.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Color.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		604CA6BB2BC5697F00738CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6CD2BC5697F00738CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6D92BC5697F00738CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6E32BC5697F00738CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		604CA6A12BC5697E00738CAE = {
+			isa = PBXGroup;
+			children = (
+				604CA6A62BC5697E00738CAE /* Shared (App) */,
+				604CA6AF2BC5697F00738CAE /* Shared (Extension) */,
+				604CA6C02BC5697F00738CAE /* iOS (App) */,
+				604CA6D12BC5697F00738CAE /* macOS (App) */,
+				604CA6E02BC5697F00738CAE /* iOS (Extension) */,
+				604CA6EA2BC5697F00738CAE /* macOS (Extension) */,
+				604CA6BF2BC5697F00738CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		604CA6A62BC5697E00738CAE /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6AD2BC5697E00738CAE /* ViewController.swift */,
+				604CA6AE2BC5697F00738CAE /* Assets.xcassets */,
+				604CA6A72BC5697E00738CAE /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		604CA6A72BC5697E00738CAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60E77EAB2BCE6E00007D5F88 /* Color.svg */,
+				60BAABEB2BCE6B8B0098EBD4 /* Icon.png */,
+				604CA6A82BC5697E00738CAE /* Main.html */,
+				604CA6AB2BC5697E00738CAE /* Style.css */,
+				604CA6AC2BC5697E00738CAE /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		604CA6AF2BC5697F00738CAE /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6B02BC5697F00738CAE /* SafariWebExtensionHandler.swift */,
+				604CA6B12BC5697F00738CAE /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		604CA6B12BC5697F00738CAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6B22BC5697F00738CAE /* _locales */,
+				604CA6B32BC5697F00738CAE /* images */,
+				604CA6B42BC5697F00738CAE /* manifest.json */,
+				604CA6B62BC5697F00738CAE /* content.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		604CA6BF2BC5697F00738CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6BE2BC5697F00738CAE /* Boosty Timecodes.app */,
+				604CA6D02BC5697F00738CAE /* Boosty Timecodes.app */,
+				604CA6DC2BC5697F00738CAE /* Boosty Timecodes Extension.appex */,
+				604CA6E62BC5697F00738CAE /* Boosty Timecodes Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		604CA6C02BC5697F00738CAE /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6C12BC5697F00738CAE /* AppDelegate.swift */,
+				604CA6C32BC5697F00738CAE /* SceneDelegate.swift */,
+				604CA6C52BC5697F00738CAE /* LaunchScreen.storyboard */,
+				604CA6C82BC5697F00738CAE /* Main.storyboard */,
+				604CA6CB2BC5697F00738CAE /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		604CA6D12BC5697F00738CAE /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6D22BC5697F00738CAE /* AppDelegate.swift */,
+				6090BEBA2BC6D1D600F5E6B6 /* Main.storyboard */,
+				604CA6D72BC5697F00738CAE /* Boosty Timecodes.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		604CA6E02BC5697F00738CAE /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6E12BC5697F00738CAE /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		604CA6EA2BC5697F00738CAE /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				604CA6EB2BC5697F00738CAE /* Info.plist */,
+				604CA6EC2BC5697F00738CAE /* Boosty Timecodes.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		604CA6BD2BC5697F00738CAE /* Boosty Timecodes (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604CA7112BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes (iOS)" */;
+			buildPhases = (
+				604CA6BA2BC5697F00738CAE /* Sources */,
+				604CA6BB2BC5697F00738CAE /* Frameworks */,
+				604CA6BC2BC5697F00738CAE /* Resources */,
+				604CA7102BC5697F00738CAE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604CA6DF2BC5697F00738CAE /* PBXTargetDependency */,
+			);
+			name = "Boosty Timecodes (iOS)";
+			productName = "Boosty Timecodes (iOS)";
+			productReference = 604CA6BE2BC5697F00738CAE /* Boosty Timecodes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		604CA6CF2BC5697F00738CAE /* Boosty Timecodes (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604CA7182BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes (macOS)" */;
+			buildPhases = (
+				604CA6CC2BC5697F00738CAE /* Sources */,
+				604CA6CD2BC5697F00738CAE /* Frameworks */,
+				604CA6CE2BC5697F00738CAE /* Resources */,
+				604CA7172BC5697F00738CAE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				604CA6E92BC5697F00738CAE /* PBXTargetDependency */,
+			);
+			name = "Boosty Timecodes (macOS)";
+			productName = "Boosty Timecodes (macOS)";
+			productReference = 604CA6D02BC5697F00738CAE /* Boosty Timecodes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		604CA6DB2BC5697F00738CAE /* Boosty Timecodes Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604CA70D2BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes Extension (iOS)" */;
+			buildPhases = (
+				604CA6D82BC5697F00738CAE /* Sources */,
+				604CA6D92BC5697F00738CAE /* Frameworks */,
+				604CA6DA2BC5697F00738CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boosty Timecodes Extension (iOS)";
+			productName = "Boosty Timecodes Extension (iOS)";
+			productReference = 604CA6DC2BC5697F00738CAE /* Boosty Timecodes Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		604CA6E52BC5697F00738CAE /* Boosty Timecodes Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 604CA7142BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes Extension (macOS)" */;
+			buildPhases = (
+				604CA6E22BC5697F00738CAE /* Sources */,
+				604CA6E32BC5697F00738CAE /* Frameworks */,
+				604CA6E42BC5697F00738CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boosty Timecodes Extension (macOS)";
+			productName = "Boosty Timecodes Extension (macOS)";
+			productReference = 604CA6E62BC5697F00738CAE /* Boosty Timecodes Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		604CA6A22BC5697E00738CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					604CA6BD2BC5697F00738CAE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					604CA6CF2BC5697F00738CAE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					604CA6DB2BC5697F00738CAE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					604CA6E52BC5697F00738CAE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 604CA6A52BC5697E00738CAE /* Build configuration list for PBXProject "Boosty Timecodes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 604CA6A12BC5697E00738CAE;
+			productRefGroup = 604CA6BF2BC5697F00738CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				604CA6BD2BC5697F00738CAE /* Boosty Timecodes (iOS) */,
+				604CA6CF2BC5697F00738CAE /* Boosty Timecodes (macOS) */,
+				604CA6DB2BC5697F00738CAE /* Boosty Timecodes Extension (iOS) */,
+				604CA6E52BC5697F00738CAE /* Boosty Timecodes Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		604CA6BC2BC5697F00738CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6C72BC5697F00738CAE /* Base in Resources */,
+				604CA6ED2BC5697F00738CAE /* Base in Resources */,
+				604CA6F32BC5697F00738CAE /* Script.js in Resources */,
+				60BAABEC2BCE6B8B0098EBD4 /* Icon.png in Resources */,
+				604CA6F72BC5697F00738CAE /* Assets.xcassets in Resources */,
+				604CA6CA2BC5697F00738CAE /* Base in Resources */,
+				60E77EAC2BCE6E00007D5F88 /* Color.svg in Resources */,
+				604CA6F12BC5697F00738CAE /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6CE2BC5697F00738CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6F22BC5697F00738CAE /* Style.css in Resources */,
+				604CA6F42BC5697F00738CAE /* Script.js in Resources */,
+				60E77EAD2BCE6E00007D5F88 /* Color.svg in Resources */,
+				60BAABED2BCE6B8B0098EBD4 /* Icon.png in Resources */,
+				6090BEBC2BC6D22A00F5E6B6 /* Main.storyboard in Resources */,
+				604CA6F82BC5697F00738CAE /* Assets.xcassets in Resources */,
+				604CA6EE2BC5697F00738CAE /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6DA2BC5697F00738CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6FD2BC5697F00738CAE /* images in Resources */,
+				604CA6FF2BC5697F00738CAE /* manifest.json in Resources */,
+				604CA6FB2BC5697F00738CAE /* _locales in Resources */,
+				604CA7032BC5697F00738CAE /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6E42BC5697F00738CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6FE2BC5697F00738CAE /* images in Resources */,
+				604CA7002BC5697F00738CAE /* manifest.json in Resources */,
+				604CA6FC2BC5697F00738CAE /* _locales in Resources */,
+				604CA7042BC5697F00738CAE /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		604CA6BA2BC5697F00738CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6F52BC5697F00738CAE /* ViewController.swift in Sources */,
+				604CA6C22BC5697F00738CAE /* AppDelegate.swift in Sources */,
+				604CA6C42BC5697F00738CAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6CC2BC5697F00738CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6F62BC5697F00738CAE /* ViewController.swift in Sources */,
+				604CA6D32BC5697F00738CAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6D82BC5697F00738CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6F92BC5697F00738CAE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		604CA6E22BC5697F00738CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				604CA6FA2BC5697F00738CAE /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		604CA6DF2BC5697F00738CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604CA6DB2BC5697F00738CAE /* Boosty Timecodes Extension (iOS) */;
+			targetProxy = 604CA6DE2BC5697F00738CAE /* PBXContainerItemProxy */;
+		};
+		604CA6E92BC5697F00738CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604CA6E52BC5697F00738CAE /* Boosty Timecodes Extension (macOS) */;
+			targetProxy = 604CA6E82BC5697F00738CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		604CA6A82BC5697E00738CAE /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604CA6A92BC5697E00738CAE /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		604CA6C52BC5697F00738CAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604CA6C62BC5697F00738CAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		604CA6C82BC5697F00738CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				604CA6C92BC5697F00738CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6090BEBA2BC6D1D600F5E6B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6090BEB92BC6D1D600F5E6B6 /* Base */,
+				6090BEBB2BC6D1D600F5E6B6 /* mul */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		604CA70B2BC5697F00738CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		604CA70C2BC5697F00738CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		604CA70E2BC5697F00738CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes.Extension";
+				PRODUCT_NAME = "Boosty Timecodes Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		604CA70F2BC5697F00738CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes.Extension";
+				PRODUCT_NAME = "Boosty Timecodes Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604CA7122BC5697F00738CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes";
+				PRODUCT_NAME = "Boosty Timecodes";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		604CA7132BC5697F00738CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes";
+				PRODUCT_NAME = "Boosty Timecodes";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		604CA7152BC5697F00738CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Boosty Timecodes.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes.Extension";
+				PRODUCT_NAME = "Boosty Timecodes Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		604CA7162BC5697F00738CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Boosty Timecodes.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes.Extension";
+				PRODUCT_NAME = "Boosty Timecodes Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		604CA7192BC5697F00738CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Boosty Timecodes.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes";
+				PRODUCT_NAME = "Boosty Timecodes";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		604CA71A2BC5697F00738CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Boosty Timecodes.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPBK6Q8LGX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Boosty Timecodes";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.gulderov.Boosty-Timecodes";
+				PRODUCT_NAME = "Boosty Timecodes";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		604CA6A52BC5697E00738CAE /* Build configuration list for PBXProject "Boosty Timecodes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604CA70B2BC5697F00738CAE /* Debug */,
+				604CA70C2BC5697F00738CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604CA70D2BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604CA70E2BC5697F00738CAE /* Debug */,
+				604CA70F2BC5697F00738CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604CA7112BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604CA7122BC5697F00738CAE /* Debug */,
+				604CA7132BC5697F00738CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604CA7142BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604CA7152BC5697F00738CAE /* Debug */,
+				604CA7162BC5697F00738CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		604CA7182BC5697F00738CAE /* Build configuration list for PBXNativeTarget "Boosty Timecodes (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				604CA7192BC5697F00738CAE /* Debug */,
+				604CA71A2BC5697F00738CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 604CA6A22BC5697E00738CAE /* Project object */;
+}

@@ -17,4 +17,4 @@ Logos are from [official source](https://boosty.to/app/brand)
 Boosty Timecodes does not collect, transmit, distribute or sell your data
 
 ## License
-[MIT](LICENSE)
+[MIT](license.md)

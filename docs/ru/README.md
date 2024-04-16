@@ -17,4 +17,4 @@ Boosty Timecodes — это расширение для Сафари, котор
 Boosty Timecodes не собирают, не передают, не распространяют и не продают ваши данные.
 
 ## License
-[MIT](../../LICENSE)
+[MIT](../../license.md)

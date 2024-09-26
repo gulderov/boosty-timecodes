@@ -15,7 +15,7 @@ const observer = new MutationObserver(() => {
 });
 
 const root = document.querySelector("#root");
-observer.observe(root, {childList: true, subtree: true});
+observer.observe(root, { childList: true, subtree: true });
 
 
 function replaceTimecodes(post) {
@@ -44,27 +44,29 @@ function replaceTimecodes(post) {
 }
 
 function attachOnClick(post) {
-  if (!post.dataset.boostyTimecodesListenerAttached) {
-    post.dataset.boostyTimecodesListenerAttached = 'true';
-    post.addEventListener('click', (event) => {
-      let target = event.target;
-      while (target !== event.currentTarget && !target.classList.contains('boosty-timecode')) {
-        target = target.parentNode;
-      }
-
-      if (target.classList.contains('boosty-timecode')) {
-        const seconds = getSeconds(target.dataset.timecode);
-
-        event.preventDefault();
-        onClick(post, seconds).catch((error) => console.error('Boosty Timecodes error:', error));
-      }
-    });
+  if (post.dataset.boostyTimecodesListenerAttached) {
+    return;
   }
+
+  post.dataset.boostyTimecodesListenerAttached = 'true';
+  post.addEventListener('click', (event) => {
+    let target = event.target;
+    while (target !== event.currentTarget && !target.classList.contains('boosty-timecode')) {
+      target = target.parentNode;
+    }
+
+    if (target.classList.contains('boosty-timecode')) {
+      const seconds = getSeconds(target.dataset.timecode);
+
+      event.preventDefault();
+      onClick(post, seconds).catch((error) => console.error('Boosty Timecodes error:', error));
+    }
+  });
 }
 
 async function onClick(post, seconds) {
   const container = post.querySelector("[class^=VideoPlayerContainer_root_]");
-  container.scrollIntoView({block: "center"});
+  container.scrollIntoView({ block: "center" });
 
   try {
     const player = await getPlayer(container, 'vk-video-player');

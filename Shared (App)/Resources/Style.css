@@ -1,30 +1,29 @@
 * {
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    cursor: default;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  cursor: default;
 }
 
 :root {
-    color-scheme: light dark;
-
-    --spacing: 20px;
+  color-scheme: light dark;
+  --spacing: 20px;
+  --grey-text: #888;
 }
 
-html {
-    height: 100%;
+html, body {
+  height: 100%;
+  margin: 0;
+  font: -apple-system-short-body;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    gap: var(--spacing);
-    margin: 0 calc(var(--spacing) * 2);
-    height: 100%;
-
-    font: -apple-system-short-body;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing);
+  padding: 0 calc(var(--spacing) * 2);
+  position: relative;
 }
 
 body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
@@ -56,11 +55,20 @@ body.state-off :is(.state-on, .state-unknown) {
 }
 
 button {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 #localeSwitcher {
-    display: flex;
-    align-items: center;
-    gap: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#version {
+  position: absolute;
+  bottom: var(--spacing);
+  right: var(--spacing);
+  margin: 0;
+  font-size: 0.8em;
+  color: var(--grey-text);
 }

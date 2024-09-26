@@ -2,38 +2,36 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <link rel="stylesheet" href="../Style.css">
-    <script src="../Script.js" defer></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="../Style.css">
+  <script src="../Script.js" defer></script>
 </head>
 
 <body>
-    <img src="../Color.svg" width="128" height="128" alt="boosty-timecodes Icon">
-    <div id="localeSwitcher">
-        <span>🌐</span>
-        <button id="localeButtonEN" type="button">English</button>
-        <button id="localeButtonRU" type="button">Русский</button>
-    </div>
-    <div class="platform-ios">
-        <ul>
-            <span data-translate="howToEnable">Как включить:</span>
-            <li data-translate="openSettings">Открываем <b>Настройки</b></li>
-            <li data-translate="clickSafari">Нажимаем <b>Safari</b>, потом <b>Расширения</b></li>
-            <li data-translate="enableUsage">Включаем <b>Boosty Timecodes</b></li>
-            <li data-translate="allowIn">Выбираем <b>Разрешить</b> в <b>boosty.to</b></li>
-        </ul>
-    </div>
-    <p class="platform-mac state-unknown" data-translate="youCanEnable">Вы можете включить расширение Boosty Timecodes в
-        настройках</p>
-    <p class="platform-mac state-on" data-translate="extensionIsOn">Расширение Boosty Timecodes включено. Вы можете
-        выключить его в настройках</p>
-    <p class="platform-mac state-off" data-translate="extensionIsOff">Расширение Boosty Timecodes выключено. Вы можете
-        включить его в настройках</p>
-    <button class="platform-mac open-preferences" data-translate="goToSettings">Перейти в настройки</button>
+  <img src="../Color.svg" width="128" height="128" alt="boosty-timecodes Icon">
+  <div id="localeSwitcher">
+    <span>🌐</span>
+    <button id="localeButtonEN" type="button">English</button>
+    <button id="localeButtonRU" type="button">Русский</button>
+  </div>
+  <div class="platform-ios">
+    <div data-translate="howToEnable">Как включить:</div>
+    <ul>
+      <li data-translate="openSettings">Открываем <b>Настройки</b></li>
+      <li data-translate="clickSafari">Нажимаем <b>Safari</b>, потом <b>Расширения</b></li>
+      <li data-translate="enableUsage">Включаем <b>Boosty Timecodes</b></li>
+      <li data-translate="allowIn">Выбираем <b>Разрешить</b> в <b>boosty.to</b></li>
+    </ul>
+  </div>
+  <p class="platform-mac state-unknown" data-translate="youCanEnable">Вы можете включить расширение Boosty Timecodes в
+    настройках</p>
+  <p class="platform-mac state-on" data-translate="extensionIsOn">Расширение Boosty Timecodes включено. Вы можете
+    выключить его в настройках</p>
+  <p class="platform-mac state-off" data-translate="extensionIsOff">Расширение Boosty Timecodes выключено. Вы можете
+    включить его в настройках</p>
+  <button class="platform-mac open-preferences" data-translate="goToSettings">Перейти в настройки</button>
+  <p id="version">#<span id="versionNumber">4.0</span></p>
 </body>
-
 </html>

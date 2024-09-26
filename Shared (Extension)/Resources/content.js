@@ -93,7 +93,8 @@ async function getPlayer(container, selector) {
 
 async function seek(player, seconds) {
   try {
-    const shadowRoot = player.shadowRoot;
+    const shadowRootContainer = player.querySelector('.shadow-root-container');
+    const shadowRoot = shadowRootContainer.shadowRoot;
     const playerWrapper = shadowRoot.querySelector(".player-wrapper");
     const videoWrapper = playerWrapper.querySelector(".video-wrapper");
     const previewContainer = playerWrapper.querySelector(".container");

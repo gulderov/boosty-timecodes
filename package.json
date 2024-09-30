@@ -1,0 +1,19 @@
+{
+  "name": "boosty-timecodes",
+  "version": "1.0.0",
+  "description": "Boosty Timecodes",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}

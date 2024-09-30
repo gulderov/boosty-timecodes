@@ -1,4 +1,4 @@
-const process = debounce(() => {
+const boostyTimecodesProcessPosts = debounce(() => {
   const posts = document.querySelectorAll('[class^="Post_root_"]');
   for (const post of posts) {
     if (isShading(post)) {
@@ -11,7 +11,7 @@ const process = debounce(() => {
 }, 100);
 
 const observer = new MutationObserver(() => {
-  process();
+  boostyTimecodesProcessPosts();
 });
 
 const root = document.querySelector("#root");
@@ -56,7 +56,7 @@ function attachOnClick(post) {
     }
 
     if (target.classList.contains('boosty-timecode')) {
-      const seconds = getSeconds(target.dataset.timecode);
+      const seconds = convertTimecodeToSeconds(target.dataset.timecode);
 
       event.preventDefault();
       onClick(post, seconds).catch((error) => console.error('Boosty Timecodes error:', error));
@@ -100,7 +100,7 @@ async function seek(player, seconds) {
     const playerWrapper = shadowRoot.querySelector(".player-wrapper");
     const videoWrapper = playerWrapper.querySelector(".video-wrapper");
     const previewContainer = playerWrapper.querySelector(".container");
-    let video = playerWrapper.querySelector("video");
+    const video = playerWrapper.querySelector("video");
 
     await isVideoReady(video);
 
@@ -145,7 +145,7 @@ function isShading(post) {
   return false;
 }
 
-function getSeconds(timecode) {
+function convertTimecodeToSeconds(timecode) {
   const parts = timecode.split(":").map(Number);
 
   if (parts.length == 3) {
@@ -175,4 +175,9 @@ function debounce(fn, ms) {
       return fn.apply(this, args);
     }, ms);
   };
+}
+
+if (navigator.webdriver) {
+  window.boostyTimecodesProcessPosts = boostyTimecodesProcessPosts;
+  window.convertTimecodeToSeconds = convertTimecodeToSeconds;
 }

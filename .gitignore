@@ -91,3 +91,8 @@ iOSInjectionProject/
 
 .DS_Store
 .idea
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

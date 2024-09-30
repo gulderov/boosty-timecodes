@@ -1,0 +1,16 @@
+stages:
+  - test
+
+test-node:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.47.0-jammy
+  script:
+    - npm ci
+    - npm test
+    - echo "https://$CI_PROJECT_NAMESPACE.gitlab.io/-/$CI_PROJECT_NAME/-/jobs/$CI_JOB_ID/artifacts/playwright-report/index.html"
+  allow_failure: true
+  artifacts:
+    when: always
+    paths:
+      - playwright-report
+    expire_in: 2 days

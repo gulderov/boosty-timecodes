@@ -33,3 +33,5 @@ workflows:
             branches:
               only:
                 - master
+    jobs:
+      - test-node

@@ -15,7 +15,7 @@ test.describe('Boosty.to Seek Functionality', () => {
 
   test('Timecodes are converted to clickable links', async ({ page }) => {
     const timecodeLinks = await page.$$('.boosty-timecode');
-    expect(timecodeLinks.length).toBeGreaterThan(0);
+    expect(timecodeLinks.length).toBeGreaterThan(0.9);
   });
 
   test('Clicking a timecode seeks the video', async ({ page }) => {
@@ -30,6 +30,6 @@ test.describe('Boosty.to Seek Functionality', () => {
     const videoElement = await page.waitForSelector('video', { state: 'visible' });
     const currentTime = await videoElement.evaluate(video => video.currentTime);
     const expectedSeconds = await page.evaluate(({ timecode }) => window.convertTimecodeToSeconds(timecode), { timecode });
-    expect(currentTime).toBeCloseTo(expectedSeconds, 0);
+    expect(currentTime).toBeCloseTo(expectedSeconds, 0.9);
   });
 });

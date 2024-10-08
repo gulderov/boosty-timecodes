@@ -12,6 +12,9 @@ jobs:
       - node/install-packages:
           pkg-manager: npm
       - run:
+          name: Install Playwright Browsers
+          command: npx playwright install webkit --with-deps
+      - run:
           name: Run tests
           command: npm test --passWithNoTests
   deploy:

@@ -1,0 +1,37 @@
+version: 2.1
+orbs:
+  node: circleci/node@5
+jobs:
+  test-node:
+    docker:
+      - image: mcr.microsoft.com/playwright:v1.47.0-jammy
+    steps:
+      - checkout
+      - node/install-packages:
+          pkg-manager: npm
+      - run:
+          name: Run tests
+          command: npm test
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: playwright-report
+          destination: playwright-report
+workflows:
+  build-and-test:
+    jobs:
+      - test-node:
+        filters:
+          branches:
+            only:
+              - circleci-project-setup
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - test-node

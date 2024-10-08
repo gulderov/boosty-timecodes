@@ -18,13 +18,6 @@ jobs:
           path: playwright-report
           destination: playwright-report
 workflows:
-  build-and-test:
-    jobs:
-      - test-node:
-        filters:
-          branches:
-            only:
-              - circleci-project-setup
   nightly:
     triggers:
       - schedule:

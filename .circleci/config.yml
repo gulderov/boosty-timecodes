@@ -20,4 +20,16 @@ jobs:
 workflows:
   build-and-test:
     jobs:
-      - test-node
+      - test-node:
+        filters:
+          branches:
+            only:
+              - circleci-project-setup
+  nightly:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only:
+                - master
